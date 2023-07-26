@@ -1,0 +1,36 @@
+body{
+    background-color: #003;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.container {
+  background-color: #090975bb;
+  padding:10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis:60%;
+}
+input{
+    background-color: #0e0e86;
+    outline:none;
+    border:none;
+    padding:5px;
+    margin:2.5px;
+    color:white;
+    flex-grow: 1;
+}
+button{
+    background-color: #2966d8;
+    outline:none;
+    border:none;
+    padding:3.5px;
+    margin:2.5px;
+    color:white;
+    flex-grow: 1;
+}
